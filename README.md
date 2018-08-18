@@ -27,8 +27,7 @@ src/RoboMasterProcess.cpp	`#图像采集，不同模式切换`
 RoboMasterMarkerDetector3	`#装甲识别模块`  
 MVCamera	`#工业相机图像采集模块（如果用usb相机，则直接用opencv接口调用即可）`  
 
-**./RoboMasterMarkerDetector3/**  
-RoboMasterMarkerDetector3	`#项目基层文件夹，装甲检测的基础模块，被步兵、英雄、哨兵共用，具有通用性`  
+**./RoboMasterMarkerDetector3/**  `#项目基层文件夹，装甲检测的基础模块，被步兵、英雄、哨兵共用，具有通用性`  
 Config	`#相关参数配置文件，程序初始化时从中读取`  
 Calibration	`#存放相机标定文件`  
 Cascades	`#存放cascade分类器模型`  
