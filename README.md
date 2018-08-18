@@ -14,7 +14,7 @@ Zhejiang University
 - MCU(STM32F427)
 
 ## How to Run
-`sudo ./script/run.sh`
+`sudo sh ./script/run.sh`
 
 ## Structure
 **./**  
