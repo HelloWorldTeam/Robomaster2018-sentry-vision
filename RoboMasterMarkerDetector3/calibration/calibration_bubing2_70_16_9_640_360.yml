@@ -1,0 +1,14 @@
+%YAML:1.0
+
+Camera.fps: 30
+
+Camera.width: 640 #960
+Camera.height: 360 #540
+
+Camera.fx: 850.5
+Camera.fy: 841.7
+Camera.cx: 318.4
+Camera.cy: 175.5
+Camera.k1: -0.420
+Camera.k2: 0.624
+Camera.k3: -3.70

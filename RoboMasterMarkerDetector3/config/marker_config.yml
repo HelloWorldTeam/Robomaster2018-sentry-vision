@@ -1,0 +1,76 @@
+%YAML:1.0
+
+ImageFrame.blur_size: 5
+ImageFrame.blur_sigma: 0.4
+
+Detector.template_name: "./template.png"
+Detector.hmin: 0
+Detector.hmax: 180
+Detector.blue_hmin: 90
+Detector.blue_hmax: 120
+Detector.red_hmin: 0
+Detector.red_hmax: 30
+Detector.smin: 0
+Detector.smax: 255
+Detector.vmin: 50
+Detector.vmax: 255
+Detector.contours_length_min: 10
+Detector.contours_length_max: 300
+Detector.LED_ratio_min: 1.6
+Detector.LED_ratio_max: 20
+Detector.LED_width_min: 7
+Detector.LED_width_max: 100
+Detector.marker_parallel_angle: 9
+Detector.marker_vertical_angle: 10
+Detector.marker_direction_angle: 45
+Detector.marker_ratio_min: 1.2
+Detector.marker_ratio_max: 8
+Detector.marker_size_min: 10
+Detector.marker_size_max: 200
+Detector.template_width: 60
+Detector.template_height: 30
+Detector.template_score_thres: 1800
+
+Transformer.gray_min: 100
+Transformer.gray_max: 255
+Transformer.area_min: 64
+Transformer.area_max: 40000
+Transformer.c2_s_ratio_min: 8
+Transformer.c2_s_ratio_max: 20
+Transformer.ellipse_epsi: 0.2
+Transformer.ellipse_inlier_ratio: 0.9
+Transformer.ellipse_radius: 0.13
+Transformer.small_marker_size: 0.13
+Transformer.big_marker_size: 0.225
+
+# Target Color
+# all - 0
+# red - 1
+# blue - 2
+Target.color: 1
+
+# Target Size
+# all - 0
+# small - 1
+# big - 2
+Target.size: 0
+
+#Target.bubing.shift_x: 0.13
+#Target.bubing.shift_y: 0.115
+#Target.bubing.shift_z: 0.17
+#Target.bubing.L: 0.055
+
+Target.bubing.shift_x: 0.0
+Target.bubing.shift_y: 0.0425
+Target.bubing.shift_z: 0.15
+Target.bubing.L: 0.055
+
+Target.shaobing.shift_x: 0
+Target.shaobing.shift_y: 0
+Target.shaobing.shift_z: 0
+Target.shaobing.L: 0
+
+Target.yingxiong.shift_x: 0
+Target.yingxiong.shift_y: 0
+Target.yingxiong.shift_z: 0
+Target.yingxiong.L: 0
